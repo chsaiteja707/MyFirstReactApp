@@ -1,0 +1,30 @@
+.component-products-btn{
+    margin: 5%;
+}
+.order-btn{
+    padding: 10px;
+    color:  rgb(84, 127, 207);
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    border-radius: 5px
+}
+
+.cart-btn{  
+    padding: 10px;
+    color: rgb(206, 44, 44);
+    background-color: rgb(255, 255, 255);
+    border: 0.5px solid black;
+    border-radius: 5px
+}
+
+.cart-btn:hover, .cart-btn:active{
+    color: rgb(252, 252, 252);
+    background-color: rgb(206, 44, 44);
+    border-color: rgb(206, 44, 44);
+}
+
+.order-btn:hover, .order-btn:active{
+    color: rgb(252, 252, 252);
+    background-color: rgb(84, 127, 207);
+    border-color: rgb(84, 127, 207);
+}
